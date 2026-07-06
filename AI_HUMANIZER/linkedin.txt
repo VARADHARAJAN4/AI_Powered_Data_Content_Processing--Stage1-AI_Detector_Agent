@@ -1,0 +1,51 @@
+Project: AI Humanizer Agent
+
+Short description
+AI Humanizer Agent is a local web application that analyzes short text (<=1000 chars), estimates how likely it is to be AI-generated, and produces a humanized rewrite while reporting readability, semantic similarity, and grammar-quality metrics.
+
+Highlights
+- Estimates AI-likeness with an interpretable heuristic and displays results as probabilistic scores (not definitive proof).
+- Produces a humanized rewrite; supports optional integration with local LLMs such as Ollama for higher-quality rewrites.
+- Interactive UI with an adaptive Chart.js visualization showing trends across analyses, history, stacked/grouped views, and metric toggles.
+- Lightweight, open-source, and designed to run locally to protect user text privacy.
+
+Tech stack
+- Python 3.12+ with Flask
+- Chart.js for frontend visualizations
+- Minimal dependencies declared in `requirements.txt`
+
+How to run (quick)
+1) Clone or copy the project into a folder, then open PowerShell in the `AI_HUMANIZER` folder.
+
+2) Create and activate a virtual environment:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+3) Install dependencies and run:
+
+```powershell
+pip install -r requirements.txt
+python app.py
+```
+
+4) Open http://127.0.0.1:5000 in your browser.
+
+Notes and responsible use
+- The tool presents detector outputs as estimates; it does not prove authorship. Use results as guidance, not as legal evidence.
+- If you enable an external LLM for rewrites, consider privacy implications: text will be sent to that endpoint.
+
+Call to action
+I built this prototype to explore how AI-generated text can be responsibly detected and humanized. If you find it useful, please try it, star or fork the repository, and share feedback or feature requests. Replace [REPO_LINK] below with the project URL when you share.
+
+Suggested LinkedIn post text (replace [REPO_LINK] with your repository or demo link):
+
+I built AI Humanizer Agent — a local, open-source prototype that analyzes short text, estimates AI-likeness, and produces a humanized rewrite with readability and similarity metrics. The UI includes an interactive Chart.js visualization to explore trends across analyses.
+
+It is designed to be run locally to protect privacy and to present AI-detection results as probabilistic estimates rather than definitive proof. The rewrite step can optionally use a local LLM (e.g., Ollama) for higher-quality output.
+
+Quickstart instructions are included in the repository. Try it: [REPO_LINK]
+
+If you have suggestions for improved detection, model integrations, or UX improvements, I welcome your feedback.

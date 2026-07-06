@@ -1,0 +1,1 @@
+I can add tooltips explaining each metric, make the chart downloadable as PNG, or persist history server-side if you want cross-device persistence. Which would you like next?.

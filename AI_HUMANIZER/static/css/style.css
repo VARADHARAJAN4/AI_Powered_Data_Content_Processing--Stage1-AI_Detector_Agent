@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f7fb;
+  color: #1f2937;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  margin-bottom: 1rem;
+}
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.9rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  resize: vertical;
+  font-size: 1rem;
+}
+.actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+button, .button {
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  background: #2563eb;
+  color: white;
+  text-decoration: none;
+}
+button.secondary, .button.secondary {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+.metric {
+  padding: 0.9rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  background: #f8fafc;
+}
+.metric span {
+  display: block;
+  font-size: 0.9rem;
+  color: #64748b;
+}
+.metric strong {
+  font-size: 1.15rem;
+}
+.meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 0.9rem;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.95rem;
+}
+.field input,
+.field select {
+  padding: 0.7rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+}
+.details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+.detail-card {
+  padding: 0.9rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  background: #f8fafc;
+}
+.detail-card span {
+  display: block;
+  font-size: 0.9rem;
+  color: #64748b;
+}
+.detail-card strong {
+  font-size: 1rem;
+}
+.status {
+  margin-top: 0.75rem;
+  color: #2563eb;
+  min-height: 1.25rem;
+}
+
+.chart-wrap {
+  margin: 1rem 0;
+  background: #ffffff;
+  padding: 0.75rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(15,23,42,0.04);
+}
+
+.spinner {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background: rgba(37,99,235,0.08);
+  color: #0f172a;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+.chart-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+.chart-controls .checkboxes label {
+  margin-right: 0.75rem;
+  font-size: 0.95rem;
+}
+.chart-controls .controls {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.chart-controls .small { font-size: 0.85rem; color: #475569; }
+.chart-controls button.secondary { padding: 0.5rem 0.75rem; }
