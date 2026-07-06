@@ -1,1 +1,0 @@
-Python is a high-level programming language that is designed to be easy to read, write, and learn, while still being powerful enough for serious software development. One-sentence intuition: think of Python as a “human-friendly way to tell the computer what to do,” using syntax that looks almost like English.
