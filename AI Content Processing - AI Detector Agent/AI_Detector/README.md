@@ -1,12 +1,11 @@
-# AI Humanizer Agent
+# AI Detector Agent
 
-AI Humanizer Agent is an open-source prototype web application that analyzes a short piece of text, estimates how likely it is to be AI-generated, and produces a humanized rewrite while reporting useful metrics and visualizations.
+AI Humanizer Agent is an open-source prototype web application that analyzes a short piece of text, estimates how likely it is to be AI-generated, and visualizations.
 
 This project is designed as a locally runnable toolkit for researchers, writers, and editors who want to explore how text transforms when optimized for a more human style and to view detector-based estimates responsibly.
 
 Key features
 - Estimate AI-likeness using a lightweight heuristic detector
-- Produce a humanized rewrite (supports optional Ollama integration)
 - Semantic similarity and readability scoring
 - Grammar-quality estimation
 - Interactive trend chart with client-side history, stacked/grouped views, and metric toggles
